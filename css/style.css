@@ -299,21 +299,25 @@ section.five h2{
     }
 
     section.thre .design{
-        margin-top: 2%;
+        width: 95%;
+        margin-top: 10%;
         margin-left: 10%;
     }
 
     section.thre .site{
-        margin-top: 15%;
+        width: 95%;
+        margin-top: 20%;
         margin-left: 10%;
     }
 
     section.thre .midias{
-        margin-top: 15%;
+        width: 95%;
+        margin-top: 20%;
         margin-left: 10%;
     }
 
     section.thre .video{
+        width: 95%;
         margin-top: 20%;
         margin-left: 10%;
     }
@@ -367,12 +371,39 @@ section.five h2{
     } 
 
     section.for .girl{
+        background-size: cover;
         width: 100%;
         background-position: center;
         height: 200px;
         background-image: url(/imagens/olhos.png);
     }
 
+    section.five .sobre {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    section.five p{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    section.five .box{
+        margin-top: -90%;
+        background-color: whitesmoke;
+        width: 90%;
+        height: 72%;
+    }
+    
+    section.five h2{
+        width: 95%;
+        height: 100%;
+        font-size: 1rem;
+    }
 }
 
 
