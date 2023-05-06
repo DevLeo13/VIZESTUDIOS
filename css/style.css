@@ -306,7 +306,7 @@ section.five h2{
 
     section.thre .site{
         width: 95%;
-        margin-top: 20%;
+        margin-top: 13%;
         margin-left: 10%;
     }
 
@@ -318,7 +318,7 @@ section.five h2{
 
     section.thre .video{
         width: 95%;
-        margin-top: 20%;
+        margin-top: 17%;
         margin-left: 10%;
     }
 
@@ -328,9 +328,9 @@ section.five h2{
     }
     
     section.thre .design h2{
-        padding: 7%;
+        padding: 5%;
         font-size: 1rem;
-        font-weight: 100;
+        font-weight: 400;
     }
 
     section.thre .site p{
@@ -339,9 +339,10 @@ section.five h2{
     }
     
     section.thre .site h2{
+        margin-top: -5%;
         padding: 7%;
         font-size: 1rem;
-        font-weight: 100;
+        font-weight: 400;
     }
     
     section.thre .midias p{
@@ -352,7 +353,7 @@ section.five h2{
     section.thre .midias h2{
         padding: 7%;
         font-size: 1rem;
-        font-weight: 100;
+        font-weight: 400;
     }
 
     section.thre .video p{
@@ -363,7 +364,7 @@ section.five h2{
     section.thre .video h2{
         padding: 7%;
         font-size: 1rem;
-        font-weight: 100;
+        font-weight: 400;
     }
 
     section.for video{
@@ -394,7 +395,6 @@ section.five h2{
 
     section.five .box{
         margin-top: -60%;
-        background-color: whitesmoke;
         width: 90%;
         height: 65%;
     }
