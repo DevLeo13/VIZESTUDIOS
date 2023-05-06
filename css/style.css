@@ -1,0 +1,380 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+section.main .menu{
+    padding: 20px;
+    display: flex;
+    width:100%;
+    align-items: start;
+    justify-content: space-between;
+}
+
+section.main .logo img{
+    width: 300px;
+    margin-top: -60px;
+}
+
+.menu-nav a{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font: bold;
+}
+
+.background{
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    top: 1px;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    background-size: cover;
+    z-index: -1;
+}
+
+section.second{
+    font-family: 'Montserrat', sans-serif;
+}
+
+section.second p{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;   
+    /*margin: 10px 50px 200px 300px;*/
+}
+
+section.second h2{
+    font-size: 20px;
+    color: white;   
+    padding: 40px;
+   /*margin-top: 50px;
+    margin-left: 530px;*/
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.second .box{
+    width: 50px;
+    height: 8px;
+    background-color: rgb(247, 247, 247 , 0.5)
+}
+
+section.thre{
+    margin-top: 510px;
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+    background-image: url(/imagens/fundo-para-serviços-oferecidos.png);
+}
+
+.oquefz{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.oquefz img{
+    margin-left: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.oquefz p{
+    text-align: center;
+    font-size: 2.8rem;
+    color: rgb(74, 76, 60);
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.trabalhos{
+    /*display: flex;
+    justify-content: space-between;*/
+    font-weight: 700;
+    color: rgb(74, 76, 60);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+section.thre .design{
+    font-weight: 700;
+    color: rgb(74, 76, 60);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 400px;
+    text-align: center;
+}
+
+section.thre .design p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section.thre .design h2{
+    padding: 7%;
+    font-size: 20px;
+}
+
+section.thre .midias{
+    font-weight: bold;
+    color: rgb(74, 76, 60);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -10%;
+    margin-left: 60%;
+    width: 400px;
+    text-align: center;
+}
+
+section.thre .midias p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section.thre .midias h2{
+    padding: 7%;
+    font-size: 20px;
+}
+
+section.thre .site p{
+    padding: 5%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section.thre .site h2{
+    padding: 5%;
+    font-size: 20px;
+}
+
+section.thre .site{
+    font-weight: bold;
+    color: rgb(74, 76, 60);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 400px;
+    text-align: center;
+}
+
+section.thre .video p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section.thre .video h2{
+    padding: 7%;
+    font-size: 20px;
+}
+
+section.thre .video{
+    font-weight: bold;
+    color: rgb(74, 76, 60);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -11%;
+    margin-left: 60%;
+    width: 400px;
+    text-align: center;
+}
+
+
+.btn{
+    border-radius: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(74, 76, 60);
+    padding: 10px;
+}
+
+section.for video{
+    width: 100%;
+}
+
+section.five .sobre {
+    background-image: url(/imagens/sobre-nos.png);
+    margin-top: -6px;
+    width: 100%;
+    height: 1200px;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section.five p{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+h2 b{
+    font-weight: 900;
+}
+
+section.five .box{
+    margin-top: -20%;
+    background-color: whitesmoke;
+    width: 45%;
+    height: 60%;
+}
+
+section.five h2{
+    line-height: 28px;
+    letter-spacing: -1px;
+    word-spacing: 8px;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    section.main .logo img{
+        width: 50%;
+        margin-top: -8%;
+    }
+
+    section.main .menu{
+        padding: 2%;
+        display: flex;
+        width:100%;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    section.second p{
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    section.second h2{
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    section.thre{
+        width: 100%;
+    }
+    
+    .oquefz img{
+        margin-left: 47%;
+        width: 10%;
+        height: 10%;
+    }
+    
+    .oquefz p{
+        font-size: 2.0rem;
+    }
+
+    .trabalhos{
+        font-weight: 700;
+        margin-top: 5%;
+        margin-left: -8%;
+        text-align: center;
+    }
+    
+    .btn{
+        font-size: 0.7rem;
+        padding: 3%;
+    }
+
+    section.thre .design{
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    section.thre .site{
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+
+    section.thre .midias{
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+
+    section.thre .video{
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+    section.thre .design p{
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+    
+    section.thre .design h2{
+        padding: 7%;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    section.thre .site p{
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+    
+    section.thre .site h2{
+        padding: 7%;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    
+    section.thre .midias p{
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+    
+    section.thre .midias h2{
+        padding: 7%;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    section.thre .video p{
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+    
+    section.thre .video h2{
+        padding: 7%;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    section.for video{
+        display: none;
+    } 
+
+    section.for .girl{
+        width: 100%;
+        background-position: center;
+        height: 200px;
+        background-image: url(/imagens/olhos.png);
+    }
+
+}
+
+
+
+
