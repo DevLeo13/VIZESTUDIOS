@@ -19,10 +19,10 @@ section.main .logo img{
 
 .menu-nav a{
     text-decoration: none;
-    color: rgb(247, 247, 247);
+    color: rgb(255, 255, 255);
     font-size: 55px;
     font-family: 'Montserrat', sans-serif;
-    font: bold;
+    font-weight: bolder;
 }
 
 .background{
@@ -220,7 +220,7 @@ section.five .sobre {
 section.five .sobre .detalhe{
     width: 6%;
     height: 9px;
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(189, 189, 189);
     margin-top: 5%;
     margin-left: 5%;
     z-index: 100;
@@ -240,7 +240,7 @@ h2 b{
 
 section.five .box{
     margin-top: 10%;
-    background-color: whitesmoke;
+    background-color: white;
     width: 45%;
     height: 60%;
 }
@@ -375,47 +375,13 @@ section.five img{
         margin-left: 10%;
     }
 
-    section.thre .design p{
+    section.thre .design p, section.thre .site p, section.thre .midias p, section.thre .video p{
         font-size: 1.4rem;
         font-weight: 900;
     }
     
-    section.thre .design h2{
+    section.thre .design h2, section.thre .video h2, section.thre .midias h2, section.thre .site h2{
         padding: 5%;
-        font-size: 1rem;
-        font-weight: 400;
-    }
-
-    section.thre .site p{
-        font-size: 1.4rem;
-        font-weight: 900;
-    }
-    
-    section.thre .site h2{
-        margin-top: -5%;
-        padding: 7%;
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    section.thre .midias p{
-        font-size: 1.4rem;
-        font-weight: 900;
-    }
-    
-    section.thre .midias h2{
-        padding: 7%;
-        font-size: 1rem;
-        font-weight: 400;
-    }
-
-    section.thre .video p{
-        font-size: 1.4rem;
-        font-weight: 900;
-    }
-    
-    section.thre .video h2{
-        padding: 7%;
         font-size: 1rem;
         font-weight: 400;
     }
@@ -463,5 +429,4 @@ section.five img{
         width: 60px;
     }
 }
-
 
