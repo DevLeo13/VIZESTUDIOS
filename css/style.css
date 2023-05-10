@@ -72,11 +72,11 @@ section.second .box{
 }
 
 section.thre{
-    margin-top: 510px;
+    margin-top: 500px;
     width: 100%;
-    height: 1100px;
+    height: 1200px;
     background-size: cover;
-    background-image: url(/imagens/fundo-para-serviços-oferecidos.png);
+    background-image: url(/VIZESTUDIOS/imagens/fundo-branco.png);
 }
 
 .oquefz{
@@ -101,26 +101,25 @@ section.thre{
 }
 
 .trabalhos{
-    /*display: flex;
-    justify-content: space-between;*/
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    margin-left: 350px;
     font-weight: 700;
     color: rgb(74, 76, 60);
     font-family: 'Montserrat', sans-serif;
-    margin-top: 5%;
-    margin-left: 5%;
-    text-align: center;
-    padding: 10px;
+    margin-top: 100px;
 }
 
 
 section.thre .design{
-    font-weight: 700;
     color: rgb(74, 76, 60);
     font-family: 'Montserrat', sans-serif;
-    margin-top: 5%;
-    margin-left: 10%;
-    width: 400px;
+    margin-top: 6%;
+    margin-left: -2%;
+    width: 450px;
     text-align: center;
+
 }
 
 section.thre .design p{
@@ -129,16 +128,16 @@ section.thre .design p{
 }
 
 section.thre .design h2{
+    font-weight: 400;
     padding: 7%;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 section.thre .midias{
-    font-weight: bold;
+    margin-top: 50px;
     color: rgb(74, 76, 60);
     font-family: 'Montserrat', sans-serif;
-    margin-top: -10%;
-    margin-left: 60%;
+    margin-left: 10%;
     width: 400px;
     text-align: center;
 }
@@ -149,8 +148,9 @@ section.thre .midias p{
 }
 
 section.thre .midias h2{
+    font-weight: 400;
     padding: 7%;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 section.thre .site p{
@@ -160,16 +160,15 @@ section.thre .site p{
 }
 
 section.thre .site h2{
+    font-weight: 400;
     padding: 5%;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 section.thre .site{
-    font-weight: bold;
+    margin-top: 150px;
     color: rgb(74, 76, 60);
     font-family: 'Montserrat', sans-serif;
-    margin-top: 5%;
-    margin-left: 10%;
     width: 400px;
     text-align: center;
 }
@@ -180,27 +179,30 @@ section.thre .video p{
 }
 
 section.thre .video h2{
+    font-weight: 400;
     padding: 7%;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 section.thre .video{
-    font-weight: bold;
+    margin-top: 150px;
     color: rgb(74, 76, 60);
     font-family: 'Montserrat', sans-serif;
-    margin-top: -11%;
-    margin-left: 60%;
-    width: 400px;
+    margin-left: 5%;
+    width: 500px;
     text-align: center;
 }
 
 
-.btn{
+a.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 25px;
     text-decoration: none;
     color: white;
     background-color: rgb(74, 76, 60);
-    padding: 10px;
     font-weight: bold;
 }
 
@@ -209,10 +211,10 @@ section.for video{
 }
 
 section.five .sobre {
-    background-image: url(/imagens/sobre-nos.png);
+    background-image: url(/VIZESTUDIOS/imagens/fundo-branco.png);
     margin-top: -6px;
     width: 100%;
-    height: 1400px;
+    height: 1700px;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
@@ -240,9 +242,10 @@ h2 b{
 
 section.five .box{
     margin-top: 10%;
-    background-color: white;
+    background-color: rgb(74, 76, 60);
     width: 45%;
-    height: 60%;
+    height: 40%;
+    color: white;
 }
 
 section.five h2{
@@ -251,6 +254,7 @@ section.five h2{
     word-spacing: 8px;
     margin-left: 5%;
     margin-top: 5%;
+    margin-bottom: 5%;
     width: 90%;
     font-size: 25px;
 }
@@ -269,13 +273,62 @@ section.five h1{
     padding: 15px;
     font-size: 3rem;
     margin-top: 250px;
-    font-weight: bold;
+    font-weight: normal;
     color: rgb(74, 76, 60);
 }
 
-section.five img{
-    width: 90px;
-    margin-top: 10px;
+.container{
+    margin-bottom: 150px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    margin-left: 410px;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(74, 76, 60);
+    border-radius: 10px;
+}
+
+section .orcamento{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(74, 76, 60);
+}
+
+section .orcamento a{
+    text-decoration: none;
+}
+
+section .orcamento a h1{
+    width: 100%;
+    height: 50px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+section .orcamento a p{
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+}
+
+footer .rodape{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(74, 76, 60);
+    align-items: center;
+    height: 80px;
+    font-size: 1.5rem;
+    width: 100%;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 768px) {
@@ -288,8 +341,14 @@ section.five img{
         font-size: 35px;
     }
 
+    .background{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(/VIZESTUDIOS/imagens/pagina-inicial.png);
+    }
+
     .background video{
-        height: 700px;
+        display: none;
     }
 
     section.main .menu{
@@ -336,43 +395,50 @@ section.five img{
         font-size: 2.0rem;
     }
 
+    .oquefz p{
+        font-size: 2.0rem;
+    }
+
     .trabalhos{
+        margin-top: 20px;
         font-weight: 700;
-        margin-left: -15%;
-        text-align: center;
+        margin-left: -16%;
+        display: flex;
+        flex-direction: column;
     }
     
-    .btn{
+    a.btn{
+        border-radius: 10px;
         font-size: 0.7rem;
         padding: 3%;
     }
 
     section.thre{
-        margin-top: 34%;
+        margin-top: 10%;
     }
 
     section.thre .design{
         width: 95%;
         margin-top: 10%;
-        margin-left: 10%;
+        margin-left: 35%;
     }
 
     section.thre .site{
         width: 95%;
         margin-top: 13%;
-        margin-left: 10%;
+        margin-left: 35%;
     }
 
     section.thre .midias{
         width: 95%;
         margin-top: 20%;
-        margin-left: 10%;
+        margin-left: 35%;
     }
 
     section.thre .video{
         width: 95%;
         margin-top: 17%;
-        margin-left: 10%;
+        margin-left: 35%;
     }
 
     section.thre .design p, section.thre .site p, section.thre .midias p, section.thre .video p{
@@ -391,17 +457,22 @@ section.five img{
     } 
 
     section.for .girl{
+        margin-top:-180px;
         background-size: cover;
         width: 100%;
         background-position: center;
-        height: 200px;
-        background-image: url(/imagens/olhos.png);
+        height: 300px;
+        background-image: url(/VIZESTUDIOS/imagens/olhos.png)
     }
 
     section.five .sobre {
+        background-image: url(/VIZESTUDIOS/imagens/fundo-branco.png);
         width: 100%;
+        height: 1800px;
         background-size: cover;
         background-position: center;
+        image-rendering: optimizeQuality;
+        background-repeat: no-repeat;
     }
     
     section.five p{
@@ -413,9 +484,9 @@ section.five img{
     }
 
     section.five .box{
-        margin-top: 20%;
+        margin-top: -150px;
         width: 90%;
-        height: 70%;
+        height: 45%;
     }
     
     section.five h2{
@@ -425,8 +496,45 @@ section.five img{
         margin-top: 10%;
     }
 
-    section.five  img{
-        width: 60px;
+    section.five h1{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 2.1rem;
+    }
+
+    .sobre .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25%;
+    }
+    
+    .sobre .container a{
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(74, 76, 60);
+        width: 190px;
+        height: 45px;
+        margin-top: 20px;
+    }
+
+    section .orcamento{
+        margin-top: -290px;
+    }
+
+    section .orcamento .orca p, h1{
+        padding: 10px;
+        font-size: 1.7rem;
+    }
+
+
+    footer .rodape{ 
+        margin-top: 30px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
     }
 }
 
