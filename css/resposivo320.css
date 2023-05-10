@@ -1,0 +1,224 @@
+    header .logo img{
+        top: 1px;
+        width: 90px;
+        left: 20px;
+    }
+
+    header .menu h1{
+        font-size: 15px;
+        top: 23px;
+        right: 20px;
+        font-weight: bold;
+    }
+
+    section .txt-botom p{
+        width: 100%;
+        left: -75px;
+        top: -150px;
+        z-index: 666;
+        position: absolute;
+        font-size: 10px;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 15px;
+        word-spacing: 0px;
+    }
+
+    section.texto .txt-botom .box{
+        position: absolute;
+        z-index: 66;
+        width: 30px;
+        height: 3px;
+        left: 55px;
+        top: -145px;
+    }
+
+    section .txt-botom h1{
+        width: 100%;
+        z-index: 666;
+        position: absolute;
+        top: -100px;
+        left: -80px;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color:rgb(214, 214, 203);
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 15px;
+        word-spacing: 0px;
+    }
+
+    section.sobre .design{
+        position: absolute;
+        top: 540px;
+        left: 10px;
+        z-index: 51;
+        text-align: center;
+    }
+
+    section.sobre .design p{
+        color: rgb(47, 54, 34);
+        font-size: 12px;
+        font-weight: bolder;
+        z-index: 51;
+        
+    }
+
+    section.sobre .design h1{
+        font-size: 10px;
+        width: 220px;
+        z-index: 51;
+    }
+
+    section.sobre .design h2{
+        background-color: rgb(47, 54, 34);
+        width: 70px;
+        height: 5px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 6px;
+        margin-top: 10px;
+        left: -35px;
+        position: absolute;
+    }
+
+    section.sobre .sites {
+        color: rgb(47, 54, 34);
+        position: absolute;
+        top: 540px;
+        left: 210px;
+        z-index: 51;
+        text-align: center;
+    }
+
+    section.sobre .sites p{
+        font-size: 10px;
+        font-weight: bolder;
+        z-index: 51;
+    }
+
+    section.sobre .sites h1{
+        color: rgb(33, 37, 25);
+        font-size: 10px;
+        width: 220px;
+        z-index: 51;
+        margin-top: 24px;
+    }
+
+    section.sobre .sites h2{
+        background-color: rgb(47, 54, 34);
+        width: 70px;
+        height: 5px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 6px;
+        margin-top: 31px;
+        left: -35px;
+        position: absolute;
+    }
+
+    section.sobre .midias {
+        position: absolute;
+        top: 700px;
+        right: 185px;
+        z-index: 51;
+        text-align: center;
+        width: 250px;
+    }
+
+    section.sobre .midias p{
+        color: rgb(63, 75, 38);
+        font-size: 10px;
+        font-weight: bolder;
+        z-index: 51;
+    }
+
+    section.sobre .midias h1{
+        font-size: 10px;
+        width: 220px;
+        z-index: 51;
+        margin-top: 10px; 
+        position: absolute;
+        right: 20px;
+    }
+
+    section.sobre .midias h2{
+        background-color: rgb(47, 54, 34);
+        width: 70px;
+        height: 5px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 6px;
+        margin-top:60px;
+        left: -35px;
+        position: absolute;
+    }
+
+    section.sobre .videos {
+        position: absolute;
+        top: 700px;
+        left: 200px;
+        z-index: 51;
+        text-align: center;
+        width: 250px;
+    }
+
+    section.sobre .videos p{
+        font-size: 10px;
+        font-weight: bolder;
+        z-index: 51;
+    }
+
+    section.sobre .videos h1{
+        font-size: 10px;
+        width: 200px;
+        z-index: 51;
+        margin-top: 10px;
+        position: absolute;
+        right: 30px;
+    }
+
+    section.sobre .videos h2{
+        background-color: rgb(47, 54, 34);
+        width: 70px;
+        height: 5px;
+        color: white;
+        text-align: center;
+        font-size: 6px;
+        margin-top: 71px;
+        left: -35px;
+        position: absolute;
+    }
+
+
+    section.sobre .oque-fazemos img{
+        width: 100%;
+        height: 450px;
+        position: absolute;
+        top: 436px;
+        background-size: cover;
+        z-index: 50;
+    }
+
+    section.sobre img.seta{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-top: 50px;
+        left: 195px;
+    }
+
+    section.sobre .oque-fazemos p{
+        color: rgb(47, 54, 34);
+        font-size: 15px;
+        font-weight: bold;
+        z-index: 50;
+        position: absolute;
+        top: 455px;
+        left: 145px;
+    }
